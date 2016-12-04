@@ -7,6 +7,17 @@ This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License Version 2 as
 published by the Free Software Foundation.
 
+Usage & Installation in Docker
+------------------------------
+
+This is a fork of original code for easier installation and usage using Docker.
+Use the following lines:
+
+```
+docker build -t ohcount .
+docker run -it -v `pwd`:/code ohcount
+```
+
 License
 -------
 
